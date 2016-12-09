@@ -65,6 +65,7 @@ body {
     color: black;
     background-color: #f7b7d3;
     border-color: #f7b7d3;
+    margin-top: 100px;
    
 }
 .btn:hover {
@@ -116,5 +117,7 @@ color: white;}
     color: white;
 }
 
-
+iframe {
+    margin-bottom: 2%;
+}
 
