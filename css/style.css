@@ -28,14 +28,11 @@
     background-color: #f7b7d3;
 }
 .navbar-brand{
-	/*background:url(../img/images.jpg) no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;*/
 	height: 110px;
 }
 .collapse ul{padding-top: 30px;}
 body {
-	margin-top: 110px;
+	padding-top: 110px;
 }
 .work{
 	margin-right: 0px;
@@ -154,8 +151,11 @@ box-shadow: 1em 1em 1em -0.5em rgba(0,0,6,0.5);
 
 .feedback,.port,.servises{
     background: #f3f0f6;
+    padding-top: 7%;
 }
-
+.price,.about{
+    padding-top: 7%;
+}
 
 .feedback-block {
      /*background: #f3f0f6;*/
@@ -195,3 +195,20 @@ box-shadow: 1em 1em 1em -0.5em rgba(0,0,6,0.5);
     display: block;
 }
 
+@media screen and (max-width:768px) {
+
+.btn {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.mobile-none{
+    display: none;
+}
+.block-text{
+    height: 100%;   
+}
+.feedback-block{padding-bottom: 0;
+}
+  
+}

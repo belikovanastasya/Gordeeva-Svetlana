@@ -7,3 +7,19 @@ $('.bxslider').bxSlider({
 $(function() {
 		$(".fancybox").fancybox();
 	});
+
+
+$ ('.nav a').click(function(e){
+e.preventDefault();	
+var href=$(this).attr('href'), speed=1200;
+$('html, body').animate({ scrollTop: $(href).offset().top }, speed);
+
+});
+
+$(".navbar-collapse a").click(function() {
+ 
+  if (!$(this).hasClass("dropdown-toggle")) {
+   
+    $(".navbar-collapse").collapse('hide');
+  }
+});
