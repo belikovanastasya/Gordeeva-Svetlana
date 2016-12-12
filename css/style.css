@@ -31,8 +31,9 @@
 	height: 110px;
 }
 .collapse ul{padding-top: 30px;}
-body {
-	padding-top: 110px;
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
 }
 .work{
 	margin-right: 0px;
@@ -48,24 +49,22 @@ body {
 .lips { background-position: -4px -132px; width: 128px; height: 128px; }
 .lipstick { background-position: -136px -132px; width: 128px; height: 128px; }
 
-.marg{
-    margin-bottom: 28px;
-}
+
 
 .port h2{
     margin-bottom:  4%;
     padding-top: 2%;
 }
-/*.servises,.price,.port{
-    margin-bottom: 4%;
-}*/
+
+
+
+
 .btn {
     color: black;
     background-color: #f7b7d3;
     border-color: #f7b7d3;
-    margin-top: 100px;
-   
-}
+    /*margin-top: 100px;*/
+  }
 .btn:hover {
      color: #fff;
     background-color: #231435;
@@ -110,16 +109,8 @@ color: white;}
     color: white;
 }
 
-iframe {
-    margin-bottom: 2%;
-}
 
-/*.bg:before{
-  content: '';
-  position: absolute; top: 0; left: 15px;
-  width: 139px;
-  height: 200px;
-  background: rgba(35,20,53,0.4);}*/
+
 
 .bg img { -webkit-transition: all 0.4s ease;-moz-transition: all 0.4s ease;transition: all 0.4s ease;
 padding: 8px;
@@ -149,14 +140,14 @@ box-shadow: 1em 1em 1em -0.5em rgba(0,0,6,0.5);
 .carousel-control.left {left:-25px;}
 .carousel-control.right {right:-25px;}*/
 
-.feedback,.port,.servises{
+.feedback,.port,.servises,.carousel{
     background: #f3f0f6;
-    padding-top: 7%;
-}
-.price,.about{
-    padding-top: 7%;
+   
 }
 
+body{
+    padding-top: 7%;
+}
 .feedback-block {
      /*background: #f3f0f6;*/
     padding-bottom: 34px;
@@ -195,6 +186,9 @@ box-shadow: 1em 1em 1em -0.5em rgba(0,0,6,0.5);
     display: block;
 }
 
+
+
+
 @media screen and (max-width:768px) {
 
 .btn {
@@ -210,5 +204,18 @@ box-shadow: 1em 1em 1em -0.5em rgba(0,0,6,0.5);
 }
 .feedback-block{padding-bottom: 0;
 }
+.banner{
+    padding-top: 20%;
+}
+
+
+/*.feedback,.port,.servises,.carousel{
+    padding-top: 30%;
+}
+.price,.about{
+    padding-top: 30%;
+}*/
   
 }
+
+

@@ -12,7 +12,7 @@ $(function() {
 $ ('.nav a').click(function(e){
 e.preventDefault();	
 var href=$(this).attr('href'), speed=1200;
-$('html, body').animate({ scrollTop: $(href).offset().top }, speed);
+$('html, body').animate({ scrollTop: $(href).offset().top-110 }, speed);
 
 });
 
