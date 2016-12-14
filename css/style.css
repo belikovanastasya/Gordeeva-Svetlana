@@ -31,14 +31,12 @@
 	height: 110px;
 }
 .collapse ul{padding-top: 30px;}
-.container-fluid{
-    padding-right: 0;
-    padding-left: 0;
-}
-.work{
-	margin-right: 0px;
-	margin-left: 0px;
 
+
+.banner{height: 100%;
+padding: 0;}
+.center-block{
+    margin-right: 0;
 }
 
 .eye, .face, .lips, .lipstick
@@ -51,7 +49,8 @@
 
 
 
-.port h2{
+.port h2,.servises h2,.price h2,
+.about h2,.feedback h2, .contact h2 {
     margin-bottom:  4%;
     padding-top: 2%;
 }
@@ -140,7 +139,7 @@ box-shadow: 1em 1em 1em -0.5em rgba(0,0,6,0.5);
 .carousel-control.left {left:-25px;}
 .carousel-control.right {right:-25px;}*/
 
-.feedback,.port,.servises,.carousel{
+.forbg{
     background: #f3f0f6;
    
 }
@@ -189,6 +188,7 @@ body{
 
 
 
+
 @media screen and (max-width:768px) {
 
 .btn {
@@ -205,16 +205,11 @@ body{
 .feedback-block{padding-bottom: 0;
 }
 .banner{
-    padding-top: 20%;
+    padding-top: 5%;
 }
 
 
-/*.feedback,.port,.servises,.carousel{
-    padding-top: 30%;
-}
-.price,.about{
-    padding-top: 30%;
-}*/
+
   
 }
 
