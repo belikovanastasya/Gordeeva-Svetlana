@@ -1,3 +1,6 @@
+
+$(function(){
+
 $('.bxslider').bxSlider({
   minSlides: 3,
   maxSlides: 4,
@@ -23,3 +26,4 @@ $(".navbar-collapse a").click(function() {
     $(".navbar-collapse").collapse('hide');
   }
 });
+})
