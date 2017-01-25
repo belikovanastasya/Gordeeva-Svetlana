@@ -1,4 +1,4 @@
-/**{outline: solid;red;}*/
+
 
 .navbar-default {
     background-image: linear-gradient(180deg, #231435, #5c3683);
@@ -84,8 +84,8 @@
 }
 
 .port h2, .servises h2, .price h2, .about h2, .feedback h2, .contact h2 {
-    margin-bottom: 1%;
-    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .btn {
